@@ -1,0 +1,28 @@
+{
+    "name": "vcian/e-business-card",
+    "description": "With e business card, you no longer need to rummage around a drawer overflowing with business cards to follow-up on a connection. These package make it easier than ever to organize your connections.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Devat Karetha",
+            "email": "devat.karetha@viitor.cloud"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^5.8"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vcian\\EBusinessCard\\EBusinessCardServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Vcian\\EBusinessCard\\": "src/"
+        }
+    }
+}
